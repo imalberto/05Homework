@@ -1,0 +1,12 @@
+.DS_Store
+*.mode1v3
+*.pbxuser
+build/
+coverage/
+coverage.info
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcworkspace/xcshareddata/
+*.xcworkspace/xcuserdata/
+Pods/
+Podfile.lock
+UserInterfaceState.xcuserstate

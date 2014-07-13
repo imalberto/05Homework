@@ -108,14 +108,7 @@ class NotificationViewController: UIViewController, UITableViewDataSource, UITab
 
     cell.configure(feed)
 
-//    manager.GET(feed.imageUrl, parameters: nil, success: {(_, responseObject) in
-//      }, failure: { (_, error) in })
-
     return cell
-
-//    let cell2 = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "NotificationCell")
-//    return cell2
-
   }
 
 }

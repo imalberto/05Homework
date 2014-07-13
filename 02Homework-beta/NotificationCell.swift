@@ -48,7 +48,6 @@ class NotificationCell: UITableViewCell {
     self.feedTextLabel.attributedText = self.attributedStringWithHTML(styledHtml)
 
     self.feedTimestampLabel.text = feed.when
-    // self.feedTimestampLabel.text = feed.getTimestamp()
 
     self.feedTypeImageView.image = UIImage(named: feed.type)
     self.photoImageView.image = nil // set image here
@@ -56,8 +55,6 @@ class NotificationCell: UITableViewCell {
     let url = NSURL(string: feed.imageUrl)
     let req = NSURLRequest(URL: url, cachePolicy: NSURLRequestCachePolicy.ReturnCacheDataElseLoad, timeoutInterval: 60)
     photoImageView.image = UIImage(named: feed.image)
-//    photoImageView.setImageWithURL(url)
-//    photoImageView.image = UIImage(named: "cell_stock")
   }
 
   // private
